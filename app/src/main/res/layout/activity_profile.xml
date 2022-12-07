@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".settings.ProfileActivity">
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_170sdp"
+            android:id="@+id/img_profile_background"
+            android:src="@drawable/profile_packgroud"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/profile_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:elevation="@dimen/_11sdp"
+            app:layout_constraintVertical_bias="0.256" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_user_name"
+            app:layout_constraintTop_toBottomOf="@id/img_profile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:hint="User Name"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_16sdp"
+
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_user_status"
+            app:layout_constraintTop_toBottomOf="@id/tv_user_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:hint="Status"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+
+            />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bt_send_message"
+    app:layout_constraintTop_toBottomOf="@id/tv_user_status"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:text="@string/send_message"
+    android:textAllCaps="false"
+    android:textSize="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+
+    />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_decline_message_request"
+            app:layout_constraintTop_toBottomOf="@id/bt_send_message"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/cancel_chat_request"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:visibility="invisible"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

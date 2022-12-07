@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AEA3A3"
+
+        android:padding="@dimen/_10sdp"
+
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_40sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/profile_image"
+            android:id="@+id/img_profile_message_receiver"
+            android:layout_marginTop="@dimen/_3sdp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_message_receiver"
+            app:layout_constraintStart_toEndOf="@+id/img_profile_message_receiver"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="receiverffffffffffffffffffffffffffffffffffffffffffffff"
+            android:padding="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:maxWidth="@dimen/_200sdp"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/reciever_message_layout" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_message_sender"
+            android:maxWidth="@dimen/_200sdp"
+
+            android:layout_marginStart="@dimen/_30sdp"
+
+            android:text="senderrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/sender_message_layout" />
+
+        <ImageView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:id="@+id/img_message_sender"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+     />
+
+        <ImageView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:id="@+id/img_message_receiver"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_profile_message_receiver"
+
+            />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

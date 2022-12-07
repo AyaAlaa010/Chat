@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/find_friends"
+        android:title="@string/find_friends"
+        />
+
+    <item
+        android:id="@+id/createGroup"
+        android:title="@string/create_group"
+        />
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        />
+    <item
+        android:id="@+id/send_notification"
+        android:title="Send Notification"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/log_out"
+        />
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/drawable/buttons.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/drawable/inputs.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/drawable/reciever_message_layout.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/drawable/sender_message_layout.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/drawable/tab_indicator.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/activity_find_friends.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/activity_group_chat.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/activity_image_viewer.xml" value="0.1675925925925926" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/activity_phone_login.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/app_bar_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/custom_chat_bar.xml" value="0.264" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/custom_message_layout.xml" value="0.2" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/find_friends_item.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/fragment_chats.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/fragment_contacts.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/fragment_groups.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/fragment_requests.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/item_friends_chat.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/item_group.xml" value="0.264" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/layout/requests_item.xml" value="0.264" />
+        <entry key="..\:/iti program/courses/Android/Chat/app/src/main/res/menu/options_menue.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

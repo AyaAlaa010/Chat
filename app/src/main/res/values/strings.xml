@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="need_new_acount">Need New Acount ?</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="login">Login</string>
+    <string name="or_login_using_your">or login using your</string>
+    <string name="phone">Phone</string>
+    <string name="already_have_an_account">Already Have an Account?</string>
+    <string name="register">Create Account</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="update">Update</string>
+    <string name="status">Status</string>
+    <string name="name">Name</string>
+    <string name="create_group">Create Group</string>
+    <string name="entre_your_phone">entre your phone</string>
+    <string name="entre_the_code">entre the code</string>
+    <string name="find_friends">Find Friends</string>
+    <string name="send_message">Send Message</string>
+    <string name="cancel_chat_request">Cancel Chat Request</string>
+</resources>

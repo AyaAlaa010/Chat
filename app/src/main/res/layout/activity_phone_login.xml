@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".loginrigestration.PhoneLoginActivity">
+
+
+        <include
+            layout="@layout/app_bar_layout"
+            android:id="@+id/main_page_toolbar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:id="@+id/img_logo"
+                    android:layout_gravity="center"
+                    android:src="@drawable/whatslogo"
+                    android:layout_marginTop="@dimen/_100sdp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    android:layout_gravity="center"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img_logo"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:id="@+id/layout_et_phone"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/entre_your_phone"
+                        android:inputType="phone"
+                        android:drawableStart="@drawable/phone"
+                        android:id="@+id/et_phone" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:visibility="gone"
+                    app:layout_constraintTop_toBottomOf="@+id/img_logo"
+
+                    android:id="@+id/et_layout_verify_code"
+
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/entre_the_code"
+                        android:inputType="phone"
+                        android:drawableStart="@drawable/password"
+                        android:id="@+id/et_verify_code" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Send Verification code"
+                    android:layout_margin="@dimen/_15sdp"
+                    app:layout_constraintTop_toBottomOf="@+id/layout_et_phone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:id="@+id/bt_send_code"
+                    android:layout_gravity="center"
+                    app:cornerRadius="@dimen/_5sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false" />
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:text="Verify"
+                    android:padding="@dimen/_10sdp"
+                    app:layout_constraintTop_toBottomOf="@+id/et_layout_verify_code"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:id="@+id/bt_verify_code"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    app:cornerRadius="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </ScrollView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

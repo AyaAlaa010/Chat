@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".settings.SettingsActivity">
+
+        <include android:id="@+id/toolbar_find"
+            layout="@layout/app_bar_layout"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_180sdp"
+            android:src="@drawable/profile_image"
+            app:civ_border_width="2dp"
+            android:layout_marginTop="@dimen/_50sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:civ_border_color="@color/colorPrimary" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/set_user_name"
+            android:hint="@string/name"
+            android:background="@drawable/inputs"
+            app:layout_constraintTop_toBottomOf="@id/profile_image"
+            android:layout_margin="@dimen/_10sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:drawableStart="@drawable/edit_profile"
+            android:padding="@dimen/_5sdp"
+
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/set_user_status"
+            android:hint="@string/status"
+            android:background="@drawable/inputs"
+            app:layout_constraintTop_toBottomOf="@id/set_user_name"
+            android:layout_margin="@dimen/_10sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:drawableStart="@drawable/edit_status"
+            android:padding="@dimen/_5sdp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/set_user_status"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="@string/update"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
